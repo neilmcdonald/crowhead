@@ -45,7 +45,6 @@ def backwards():
 			for pin in range(0,4):
 				GPIO.output(ControlPin[pin], Seq[halfstep][pin])
 			time.sleep(0.001)
-
 	blink()
 
 while True:
